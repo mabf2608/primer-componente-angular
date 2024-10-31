@@ -1,0 +1,7 @@
+{
+  "name": "primer-componente",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
