@@ -25,3 +25,11 @@
 #container a {
   text-decoration: none;
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;        // Permite que las tarjetas salten a la siguiente línea si no caben
+  justify-content: center; // Centra las tarjetas horizontalmente
+  gap: 10px;               // Añade espacio entre las tarjetas
+  padding: 10px;
+}

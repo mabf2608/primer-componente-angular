@@ -13,8 +13,15 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="card-container">
+      <app-user-info [nombre]="'Miguel Ángel'" [apellidos]="'Bonilla Fernández'" [edad]="22"></app-user-info>
+      <app-user-info [nombre]="'Irene'" [apellidos]="'Paniagua Cobos'" [edad]="21"></app-user-info>
+      <app-user-info [nombre]="'Rafael'" [apellidos]="'Moncayo Pérez'" [edad]="21"></app-user-info>
+      <app-user-info [nombre]="'David'" [apellidos]="'Hormigo Ramírez'" [edad]="44"></app-user-info>
+      <app-user-info [nombre]="'Ivan'" [apellidos]="'Caro Romero'" [edad]="19"></app-user-info>
+      <app-user-info [nombre]="'Jorge'" [apellidos]="'Bech Castillo'" [edad]="19"></app-user-info>
+      <app-user-info [nombre]="'Maria'" [apellidos]="'Sánchez Peralta'" [edad]="72"></app-user-info>
+      <app-user-info [nombre]="'Dahila'" [apellidos]="'Aguilar Fernández'" [edad]="0"></app-user-info>
   </div>
+  
 </ion-content>

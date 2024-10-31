@@ -1,0 +1,22 @@
+<ion-card (click)="onCardClick()" routerLink="/">
+  <ion-card-header>
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="../../../assets/avatar.png" alt="Avatar">
+      </ion-avatar>
+      <ion-label>
+        <!--uso de pipes y binding-->
+        <h1>{{nombre}} {{apellidos|slice:0:1|uppercase}}.</h1>
+      </ion-label>
+    </ion-item>
+  </ion-card-header>
+
+  <ion-card-content>
+    <h2>Nombre:</h2>
+    <p>{{nombre}}</p>
+    <h2>Apellidos:</h2>
+    <p>{{apellidos}}</p>
+    <h2>Edad:</h2>
+    <p>Edad: {{edad}}</p>
+  </ion-card-content>
+</ion-card>
