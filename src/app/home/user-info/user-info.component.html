@@ -8,6 +8,8 @@
         <!--uso de pipes y binding-->
         <h1>{{nombre}} {{apellidos|slice:0:1|uppercase}}.</h1>
       </ion-label>
+      <ion-icon [name]="fav ? 'heart' : 'heart-outline'" 
+      (click)="onFavClick()"></ion-icon>
     </ion-item>
   </ion-card-header>
 
